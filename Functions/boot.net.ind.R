@@ -14,11 +14,11 @@ require(bipartite)
 
 # web = interaction matrix 
 # spp = matrix with individuals code of species, with the same number of lines that the column with the names of individuals. The names of rows must be the code of individuals and the first column the code of species names.
-# n.min = minimum number of interaction for bootstrap method with replacement
+# n.min = minimum number of interaction for bootstrap sample
 # by = number of the sample size that will be increased in each step of the bootstrap method
-# runs = number of times that the step will be repeated 
-# method = "nodf","connectance" or "modularity"
-# progressbar = logic argument (TRUE OR FALSE) to show or not the progress bar of the function. Not compatible with RStudio
+# runs = number of bootstrap samples
+# method = network metrics, match to "nodf","connectance" or "modularity"
+# progressbar = logic argument (TRUE OR FALSE) to show or not the progress bar of the function
 
 ## Value
 
