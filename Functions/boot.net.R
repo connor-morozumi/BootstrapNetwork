@@ -6,7 +6,7 @@ require(bipartite)
 
 ## Description
 
-# The boot_net function assesses sampling sufficiency for network metrics, based on bootstrap methods with replacement. It generates confidence intervals for each network metric with increasing sample size. Here we used as examples connectance, NODF and modularity metrics.
+# The boot.net function assesses sampling sufficiency for network metrics, based on bootstrap methods with replacement. It generates confidence intervals for each network metric with increasing sample size. Here we used as examples connectance, NODF and modularity metrics.
 
 ## Usage
 
