@@ -17,7 +17,7 @@ require(bipartite)
 # web = interaction matrix 
 # n.min = minimum number of interaction for bootstrap method with replacement
 # by = number of the sample size that will be increased in each step of the bootstrap method
-# runs = number of times that the step will be repeated 
+# runs = number of bootstrap samples
 # method = "nodf","connectance" or "modularity"
 # progressbar = logic argument (TRUE OR FALSE) to show or not the progress bar of the function. Not compatible with RStudio
 
