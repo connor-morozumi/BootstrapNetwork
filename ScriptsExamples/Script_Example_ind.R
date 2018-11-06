@@ -22,7 +22,7 @@ webSS
 Obs_nodf <- nestednodf(webSS, order = TRUE, weighted = FALSE)$statistic[3]
 Obs_nodf
 
-# To calculate the network metric under assessment for the bootstrap samples with replacement method (e.g., NODF)
+# To estimate a network metric using bootstrap samples with replacement method (e.g., NODF)
 
 Res_SS.ind_nodf <- boot.net.ind(web, spp, n.min = 10, by = 5, runs = 1000, method = "nodf", progressbar = TRUE)
 Res_SS.ind_nodf
