@@ -1,0 +1,7 @@
+File description
+
+File SS.txt (Tab delimited text)
+Rows represent 15 bird species and columns represent 28 plant species.
+
+File SS_100individuals.txt (Tab delimited text)
+Rows represent 100 bird individuals and columns represent 28 plant species. The column "sp" shows species that each individual belongs to.
