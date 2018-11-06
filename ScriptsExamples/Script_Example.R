@@ -20,7 +20,7 @@ Obs_mod <- computeModules(webSS, steps = 1E6)
 Obs_mod <- Obs_mod@likelihood
 Obs_mod
 
-# To calculate the network metric under assessment for the bootstrap samples with replacement method (e.g., NODF)
+# To estimate a network metric using bootstrap samples with replacement method (e.g., NODF)
 
 Res_SS_nodf <- boot.net(webSS, n.min = 10, by = 5, runs = 1000, method = "nodf", progressbar = TRUE)
 Res_SS_nodf
